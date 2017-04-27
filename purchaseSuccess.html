@@ -6,12 +6,22 @@
 		
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		
+		<link rel="stylesheet" href="style.css" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<link rel="shortcut icon" href="hacklogo4.ico" type="image/x-icon">
 		<script>
+		var ok = false;
+		window.onload = setInterval(yes, 2000);
+		function yes(){
+		if(ok == false)
+		{
+    $(".trigger").toggleClass("drawn");
+	ok = true;
+	}else{}
+}
+</script>
+
 		
-		</script>
 		
 		<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 <script>
@@ -28,11 +38,11 @@
 
 				<!-- Header -->
 					<header id="header" class="alt">
-						<span class="logo"><img src="Logo.png" alt="" width=400 height=400 /></span>
-						<h1>420 Kush Kush Hacks</h1>
-						<p>The living, breathing meme that's also a cheat.</p>
-						<a href="http://steamcommunity.com/groups/420KushKushHacks" class="button special" target="_blank">Join My Steam Group!</a>
+					<h1>420 Kush Kush Hacks</h1>
+						
 					
+					  
+						
 					</header>
 
 				<!-- Nav -->
@@ -54,8 +64,18 @@
 										<header class="major">
 											<h2>Success!</h2>
 										</header>
-										<p>Your order has been placed and a copy of 420 Kush Kush Hacks is currently being compiled and encrypted. Once finished the necessary files will be sent to the email provided when you paid. While you wait why don't you join my steam group where you can post a testimony (feedback) of the cheat and feel free to ask for help from me or one of the admins there! Good Luck and Have Fun!</p>
 										
+										<div class="trigger"></div>
+<svg version="1.1" id="tick" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width=130px height=130px align="middle" viewBox="0 0 37 37" style="enable-background:new 0 0 37 37;" xml:space="preserve">
+<path class="circ path" style="fill:none;stroke:#000;stroke-width:3;stroke-linejoin:round;stroke-miterlimit:10;" d="
+	M30.5,6.5L30.5,6.5c6.6,6.6,6.6,17.4,0,24l0,0c-6.6,6.6-17.4,6.6-24,0l0,0c-6.6-6.6-6.6-17.4,0-24l0,0C13.1-0.2,23.9-0.2,30.5,6.5z"
+	/>
+<polyline class="tick path" style="fill:none;stroke:#000;stroke-width:3;stroke-linejoin:round;stroke-miterlimit:10;" points="
+	11.6,20 15.9,24.2 26.4,13.8 "/>
+</svg>
+  <br /> <br />
+										<p>Your order has been placed and a copy of 420 Kush Kush Hacks is currently being compiled and encrypted. Once finished the necessary files will be sent to the email provided when you paid. While you wait why don't you join my steam group where you can post a testimony (feedback) of the cheat and feel free to ask for help from me or one of the admins there! Good Luck and Have Fun!</p>
+										<a href="http://420kkhacks.tk">Go Back To Site</a>
 									</div>
 									
 								</div>
@@ -65,6 +85,7 @@
 							
 		<!-- Scripts -->
 			<script src="assets/js/jquery.min.js"></script>
+		<script src="animation.js"</script>
 			<script src="assets/js/jquery.scrollex.min.js"></script>
 			<script src="assets/js/jquery.scrolly.min.js"></script>
 			<script src="assets/js/skel.min.js"></script>

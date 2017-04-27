@@ -27,3 +27,18 @@
 [0427/184757.449:ERROR:file_io_win.cc(163)] CreateFile C:\Program Files (x86)\Google\Chrome\settings.dat: Access is denied. (0x5)
 [0427/184757.549:ERROR:registration_protocol_win.cc(83)] TransactNamedPipe: The pipe has been ended. (0x6D)
 [0427/184757.565:ERROR:crashpad_win.cc(223)] Crashpad handler failed to start, crash reporting disabled
+[0427/190504.377:ERROR:file_io_win.cc(163)] CreateFile C:\Program Files (x86)\Google\Chrome\settings.dat: Access is denied. (0x5)
+[0427/190504.528:ERROR:registration_protocol_win.cc(83)] TransactNamedPipe: The pipe has been ended. (0x6D)
+[0427/190504.961:ERROR:crashpad_win.cc(223)] Crashpad handler failed to start, crash reporting disabled
+[0427/190743.901:ERROR:file_io_win.cc(163)] CreateFile C:\Program Files (x86)\Google\Chrome\settings.dat: Access is denied. (0x5)
+[0427/190744.002:ERROR:registration_protocol_win.cc(83)] TransactNamedPipe: The pipe has been ended. (0x6D)
+[0427/190744.021:ERROR:crashpad_win.cc(223)] Crashpad handler failed to start, crash reporting disabled
+[0427/190912.150:ERROR:file_io_win.cc(163)] CreateFile C:\Program Files (x86)\Google\Chrome\settings.dat: Access is denied. (0x5)
+[0427/190912.240:ERROR:registration_protocol_win.cc(83)] TransactNamedPipe: The pipe has been ended. (0x6D)
+[0427/190912.259:ERROR:crashpad_win.cc(223)] Crashpad handler failed to start, crash reporting disabled
+[0427/192148.038:ERROR:file_io_win.cc(163)] CreateFile C:\Program Files (x86)\Google\Chrome\settings.dat: Access is denied. (0x5)
+[0427/192148.138:ERROR:registration_protocol_win.cc(83)] TransactNamedPipe: The pipe has been ended. (0x6D)
+[0427/192148.157:ERROR:crashpad_win.cc(223)] Crashpad handler failed to start, crash reporting disabled
+[0427/192329.988:ERROR:file_io_win.cc(163)] CreateFile C:\Program Files (x86)\Google\Chrome\settings.dat: Access is denied. (0x5)
+[0427/192330.088:ERROR:registration_protocol_win.cc(83)] TransactNamedPipe: The pipe has been ended. (0x6D)
+[0427/192330.108:ERROR:crashpad_win.cc(223)] Crashpad handler failed to start, crash reporting disabled
