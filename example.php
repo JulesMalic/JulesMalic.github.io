@@ -1,4 +1,8 @@
-
+<?php
+    require ('steamauth/steamauth.php');
+	# You would uncomment the line beneath to make it refresh the data every time the page is loaded
+	// unset($_SESSION['steam_uptodate']);
+?>
 <!DOCTYPE HTML>
 <html>
 <head>
@@ -6,11 +10,7 @@
 	
 </head>
 <body>
-<?php
-    require ('steamauth/steamauth.php');
-	# You would uncomment the line beneath to make it refresh the data every time the page is loaded
-	// unset($_SESSION['steam_uptodate']);
-?>
+
 <?php
 if(!isset($_SESSION['steamid'])) {
 
