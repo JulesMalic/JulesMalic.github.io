@@ -1,7 +1,7 @@
 <?php
     if ($_SERVER['REQUEST_METHOD'] === 'POST')
     {
-        var_dump($_PSOT);
+        var_dump($_POST);
         header('Location: ', true, 303);
         exit();
     }
