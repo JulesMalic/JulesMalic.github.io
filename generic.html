@@ -6,13 +6,13 @@
     <script>
         function ajaxmagic()
         {
-            .post(                             //call the server
+            $.post(                             //call the server
                 "test.php",                     //At this url
                 {
                     field: "value",
                     name: "John"
                 }                               //And send this data to it
-            ).done(                             //And when it's done
+            )$.done(                             //And when it's done
                 function(data)
                 {
                     $('#fromAjax').html(data);  //Update here with the response
